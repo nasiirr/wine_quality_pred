@@ -72,4 +72,4 @@ with gr.Blocks() as interface:
             outputs=[array_quality_output, array_prediction_output]
         )
 
-interface.launch()
+interface.launch(inline=false)
